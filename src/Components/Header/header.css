@@ -1,0 +1,21 @@
+.header {
+    justify-content: center;
+    padding: 10px;
+}
+
+.header-search input{
+    width: 60vw;
+}
+
+.header-logo {
+    align-self: center;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .header-search input {
+        width: 50vw;
+    }
+}
