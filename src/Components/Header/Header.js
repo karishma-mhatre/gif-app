@@ -8,7 +8,7 @@ class Header extends Component {
                 <span className="header-logo color-white">GIFLY</span>
                 <form onSubmit={this.props.search} className="header-search">
                     <input className="gif-input large-font" type="text" name="searchText" placeholder="Search Text"></input>
-                    <button className="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <button className="btn"><i className="fa fa-search" aria-hidden="true"></i></button>
                 </form>
             </div>
         );

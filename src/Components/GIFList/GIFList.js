@@ -8,7 +8,7 @@ class GIFList extends Component {
                 {
                     this.props.GIFList.map(element => {
                         return (
-                            <div className="img-container" onClick={this.props.setGIFDetailsId}>
+                            <div className="img-container" onClick={this.props.setGIFDetailsId} key={element.id}>
                                 <img src={element.images.original.url} alt={element.title} data-id={element.id}></img>
                             </div>
                         );

@@ -30,9 +30,10 @@ class App extends Component {
         this.setState({error: error});
       })
       .then(data => {
-        console.log(data.data);
-        this.setState({GIFList: data.data});
-        this.setState({isLoaded: true});
+        if(data) {
+          this.setState({GIFList: data.data});
+          this.setState({isLoaded: true});
+        }
       });
   }
 

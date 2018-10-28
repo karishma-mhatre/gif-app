@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class GIFDetails extends Component {
     render() {
         return (
-            <div classNAme="flex-container">
+            <div className="flex-container">
                 <div>
                     <img src={this.props.gifDetails.images.original.url} 
                         width={this.props.gifDetails.images.original.width} 
@@ -12,7 +12,7 @@ class GIFDetails extends Component {
                     </img>
                 </div>
                 <div>
-                    <input type="text" value={this.props.gifDetails.bitly_url}></input>
+                    
                 </div>
             </div>
         );
