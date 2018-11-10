@@ -1,36 +1,18 @@
-/* containers */
 
-body {
-    background-color: #121212;
-}
-
-.flex-container {
+.container {
     display: flex;
     flex-wrap: wrap;
     max-width: 1040px;
     margin: 0 auto;
 }
 
+.container_white-font {
+    color: #ffffff;
+}
 
-/* elements */
 .btn {
     color: #ffffff;
     padding: 15px;
-    background: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 100%);
     font-size: 1.0rem;
     border: 0;
-}
-
-.gif-input {
-    padding: 12px;
-}
-
-/* colors */
-.color-white {
-    color: #ffffff;
-}
-
-/* sizes */
-.large-font {
-    font-size: 1.0rem;
 }

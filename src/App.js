@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <>
         <Header search={this.searchGif}></Header>
-        <div className="flex-container">
+        <div className="container">
           <Container isSearchContent={this.state.isContentSearch} 
                       GIFList={this.state.GIFList} 
                       setGIFDetailsId={this.setGIFDetailsId} 

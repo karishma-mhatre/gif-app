@@ -3,19 +3,27 @@
     padding: 10px;
 }
 
-.header-search input{
+.header-search__input{
     width: 60vw;
+    font-size: 1.0rem;
+    padding: 12px;
 }
 
-.header-logo {
+.header-search__btn {
+    background: linear-gradient(45deg, rgb(153, 51, 255) 0%, rgb(255, 102, 102) 100%);
+
+}
+
+.logo {
     align-self: center;
     padding: 10px;
     font-weight: 900;
     font-size: 1.5rem;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 767px) {
-    .header-search input {
+    .header-search__input {
         width: 50vw;
     }
 }

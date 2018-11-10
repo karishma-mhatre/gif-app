@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class GIFDetails extends Component {
     render() {
         return (
-            <div className="flex-container">
+            <div className="container">
                 <div>
                     <img src={this.props.gifDetails.images.original.url} 
                         width={this.props.gifDetails.images.original.width} 

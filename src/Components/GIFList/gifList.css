@@ -2,7 +2,7 @@
     padding: 10px;
 }
 
-.img-container img {
+.img-container .img-container__img {
     width: 240px;
     height: 150px;
 }
@@ -11,10 +11,6 @@
     .img-container {
         width: 100%;
         padding: 10px 0;
-    }
-
-    .flex-container {
-        padding: 0;
     }
 
     .img-container img {
